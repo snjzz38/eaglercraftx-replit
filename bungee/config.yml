@@ -11,7 +11,7 @@ listeners:
   priorities:
   - lobby
   bind_local_address: false
-  host: geekout123.aternos.me:24641
+  host: 0.0.0.0:10000
   max_players: 1
   tab_size: 60
   force_default_server: true
@@ -46,5 +46,5 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    address: geekout123.aternos.me:24641
     restricted: false
